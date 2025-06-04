@@ -60,7 +60,6 @@ public:
             if (animals[i] != nullptr)
             {
                 delete animals[i];
-                animals[i] = nullptr;
             }
         }
     }
